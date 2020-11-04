@@ -1,3 +1,3 @@
 # srs
-Author: Phillip Kwong
+Author: Phillip Kwong\n
 Semiconductor Reliability Service Copyright &copy; 2020
