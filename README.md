@@ -1,2 +1,2 @@
 # srs
-Semiconductor Reliability Service Website Copyright &copy; 2020
+Semiconductor Reliability Service Copyright &copy; 2020
