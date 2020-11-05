@@ -20,77 +20,63 @@
     <!-- Contacts -->
     <section class="contacts">
       <div class="container grid">
-        <div class="placholder"></div>
-        <div class="contacts-text">
-          <div class="card">
-            <h2>Contacts</h2>
-            <hr>
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores
-              eius ipsum dolorum, rerum sint inventore. Praesentium, neque.
-              Delectus suscipit commodi explicabo, qui reiciendis obcaecati
-              corrupti laborum blanditiis illum mollitia. Nisi voluptas
-              consequatur et molestiae expedita cum corporis quasi. Aspernatur
-              hic officiis repellat a. Natus totam alias quae architecto fugiat
-              accusamus optio animi, sed fuga atque quibusdam voluptates
-              exercitationem necessitatibus magnam dolores sunt. Repudiandae
-              molestias rem neque quas excepturi nisi sequi eum iure tempora
-              veniam voluptatibus aliquid, exercitationem porro obcaecati a
-              alias. Sint delectus sequi ducimus! Atque dolorem accusantium
-              quas! Corporis quasi aliquam odio autem ipsum inventore,
-              recusandae quo, suscipit, cupiditate delectus minima at eveniet
-              error nobis sapiente architecto cumque eos in aspernatur
-              voluptatem rerum excepturi veniam nam? Quaerat error facere
-              voluptatibus molestias ad exercitationem odio, asperiores eum
-              reprehenderit dolorum repellendus rerum maxime cupiditate mollitia
-              sit delectus ea, ex laudantium magni nam a! Eaque magnam, iste
-              libero cupiditate impedit ratione, provident asperiores numquam
-              quo in assumenda veritatis. Odio recusandae fugiat autem quasi
-              laudantium! Nostrum laborum, iste hic dicta quae est quam minima
-              consequatur ab, voluptatibus blanditiis sapiente, dolores placeat
-              ad? Deleniti iste autem itaque voluptatem voluptates soluta
-              dolores, ea minus deserunt est vero illum vel modi quas, atque
-              provident consequuntur! Exercitationem nisi dolores aliquid
-              nesciunt, quisquam recusandae rerum cupiditate repudiandae rem
-              asperiores placeat saepe. Quos iusto voluptatem reprehenderit
-              maxime veritatis atque placeat natus facere libero error! Quas
-              ipsam sequi quae delectus saepe, distinctio error reprehenderit
-              blanditiis temporibus sunt. Commodi nostrum aliquid in est ducimus
-              molestiae iste vel aliquam natus maiores recusandae ipsam tempore
-              quas quidem, similique consequuntur et nesciunt optio animi
-              tempora laboriosam fuga. Nulla perspiciatis officiis debitis harum
-              ipsam consequuntur quisquam tenetur aspernatur, cumque repudiandae
-              beatae excepturi! Quisquam amet laboriosam cumque, eaque commodi
-              exercitationem nobis nulla repellendus velit ullam corrupti
-              consequatur distinctio illum. Est impedit modi delectus eligendi
-              beatae in voluptatem ratione minus aperiam, vero harum omnis.
-              Facere inventore nulla quo, magnam alias perspiciatis facilis
-              consectetur iure officiis asperiores et aliquid recusandae hic
-              dolores assumenda itaque pariatur sunt? Beatae nisi eos, ratione
-              non ab reiciendis. Ab tempore fuga dolorum accusantium molestias
-              ad adipisci numquam ipsa fugiat voluptatum! Illum, voluptas, non
-              sint nesciunt ratione aliquam, ut fugiat deleniti aut maxime fugit
-              similique tempora iure adipisci nisi asperiores velit architecto
-              veritatis. Deleniti quia adipisci cumque saepe quam praesentium
-              ea, porro eos odio assumenda ducimus molestiae facere mollitia
-              minima iure dolore inventore nostrum! Sapiente doloribus
-              aspernatur expedita, ad labore sunt minus earum animi eveniet iure
-              inventore. Eligendi assumenda autem temporibus praesentium, neque
-              aspernatur magnam aliquam sunt cum nemo, accusamus, sed atque
-              quibusdam eius cumque facere iure. Tenetur a sed eligendi unde ex
-              esse vitae nostrum sint, accusantium excepturi. Provident laborum
-              ad quos cumque repudiandae minima, saepe quaerat ratione
-              aspernatur vero beatae magni rem adipisci, ea minus, est natus
-              dolorum harum? Delectus optio illo inventore rem. Blanditiis odit
-              nemo eius architecto obcaecati molestias reprehenderit assumenda,
-              cum deserunt corporis aut esse tempore nostrum illo? Officia
-              libero commodi provident porro in molestias, labore eveniet
-              voluptatibus fuga recusandae pariatur beatae maxime! Accusamus
-              error placeat labore quia aperiam!
-            </p>
+        <div class="card">
+          <h2>Contacts</h2>
+          <hr />
+          <div class="flex">
+            <div class="contacts-info">
+              <div>
+                <h3>Contact Information</h3>
+                <hr />
+                <p>Semiconductor Reliability Service, Inc.</p>
+                <div class="flex">
+                  <div class="info">
+                    <p>1-408-893-8145</p>
+                    <p>3389 Edward Avenue</p>
+                    <p>Santa Clara, CA 95054</p>
+                  </div>
+                  <img src="images/local.png" alt="SRS location" class="map" />
+                </div>
+              </div>
+            </div>
+            <div class="contacts-text">
+              <div>
+                <h3>Please Fill the Form below</h3>
+                <hr />
+                <form action="">
+                  <div>
+                    <label for="name">Name:</label>
+                    <span class="error" id="nameErr"></span>
+                    <input type="text" placeholder="Name Here" />
+                  </div>
+                  <div>
+                    <label for="name">Email:</label>
+                    <span class="error" id="emailErr"></span>
+                    <input type="text" placeholder="Email Here" />
+                  </div>
+                  <div>
+                    <label for="name">Phone:</label>
+                    <span class="error" id="phoneErr"></span>
+                    <input type="text" placeholder="Phone Here" />
+                  </div>
+                  <div
+                    class="flex"
+                    style="align-items: flex-start; justify-content: flex-start"
+                  >
+                    <label for="name">Message:</label>
+                    <span class="error" id="commentErr"></span>
+                    <textarea
+                      name="message"
+                      placeholder="Message Here"
+                      rows="5"
+                    ></textarea>
+                  </div>
+                  <button>Submit</button>
+                </form>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="placeholder"></div>
       </div>
       <button onclick="topFunction()" class="btn" id="topbtn" title="Go to top">
         <i class="fas fa-angle-double-up fa-lg"></i>
