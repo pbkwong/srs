@@ -182,11 +182,11 @@ h2 {
   align-items: flex-start;
 }
 
-.home .card {
+/* Home Text */
+.home-main .card {
   box-shadow: 0 0 0 0;
 }
 
-/* Home Text */
 .home-main h2 {
   border-bottom: 1px var(--dark-color) solid;
 }
@@ -275,6 +275,11 @@ h2 {
 
 .asset-recovery-sidebar a:hover {
   border-bottom: 2px var(--dark-color) solid;
+}
+
+#pins {
+  float: right;
+  width: 50%;
 }
 
 /* E-Waste Recycling */
