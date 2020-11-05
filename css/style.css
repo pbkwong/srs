@@ -21,6 +21,7 @@ html {
 body {
   width: 100%;
   height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
   background-color: var(--primary-color);
   line-height: 1.6;
 }
@@ -398,6 +399,15 @@ h2 {
 .contacts-text .flex {
   justify-content: center;
   align-items: center;
+}
+
+.contacts-text form div {
+  padding-bottom: 0.6rem;
+}
+
+.contacts-text input,
+.contacts-text textarea {
+  width: 100%;
 }
 
 .contacts-info .flex {

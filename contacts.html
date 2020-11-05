@@ -25,87 +25,77 @@
             <div class="card">
               <h2>Contacts</h2>
               <hr />
-              <div class="flex">
-                <div class="contacts-info">
+              <div class="contacts-info">
+                <div class="flex">
                   <div class="card">
                     <h2>Contact Information</h2>
                     <hr />
                     <p style="font-weight: bold">
                       Semiconductor Reliability Service, Inc.
                     </p>
-                    <div class="flex">
-                      <div class="info">
-                        <p>1-408-893-8145</p>
-                        <p>3389 Edward Avenue</p>
-                        <p>Santa Clara, CA 95054</p>
-                      </div>
-                      <img
-                        src="images/local.png"
-                        alt="SRS location"
-                        class="map"
-                      />
-                    </div>
-                    <br />
+                    <div style="padding: 5px"></div>
                     <div>
-                      <p>For Inquires, Please email us at:</p>
-                      <i style="font-weight: bold">hello@srservicequip.com</i>
+                      <div class="flex">
+                        <div class="info">
+                          <p>1-408-893-8145</p>
+                          <p>3389 Edward Avenue</p>
+                          <p>Santa Clara, CA 95054</p>
+                        </div>
+                        <img
+                          src="images/local.png"
+                          alt="SRS location"
+                          class="map"
+                        />
+                      </div>
                     </div>
                   </div>
-                </div>
-                <div class="contacts-text">
-                  <div class="card">
-                    <h2>Please Fill the Form below</h2>
-                    <hr />
-                    <form action="">
-                      <div>
-                        <label for="name">Name:</label>
-                        <span class="error" id="nameErr"></span>
-                        <input type="text" placeholder="Name Here" />
-                      </div>
-                      <div>
-                        <label for="name">Email:</label>
-                        <span class="error" id="emailErr"></span>
-                        <input type="text" placeholder="Email Here" />
-                      </div>
-                      <div>
-                        <label for="name">Phone:</label>
-                        <span class="error" id="phoneErr"></span>
-                        <input type="text" placeholder="Phone Here" />
-                      </div>
-                      <div
-                        class="flex"
-                        style="
-                          align-items: flex-start;
-                          justify-content: flex-start;
-                        "
-                      >
-                        <label for="name">Message:</label>
-                        <span class="error" id="commentErr"></span>
-                        <textarea
-                          name="message"
+                  <div class="contacts-text">
+                    <div class="card">
+                      <h4>
+                        For Inquires, Please email us at
+                        <i style="text-decoration: underline; color: blue">
+                          hello@srservicequip.com
+                        </i>
+                        or fill in the form below:
+                      </h4>
+                      <hr />
+                      <form action="">
+                        <div>
+                          <label for="name">Name:&nbsp;</label>
+                          <span class="error" id="nameErr"></span>
+                          <input type="text" placeholder="Name Here" />
+                        </div>
+                        <div>
+                          <label for="name">Email:&nbsp;</label>
+                          <span class="error" id="emailErr"></span>
+                          <input type="text" placeholder="Email Here" />
+                        </div>
+                        <div>
+                          <label for="name">Phone:&nbsp;</label>
+                          <span class="error" id="phoneErr"></span>
+                          <input type="text" placeholder="Phone Here" />
+                        </div>
+                        <div>
+                          <label for="message">Message: &nbsp;</label>
+                          <span class="error" id="commentErr"></span>
+                          <textarea
+                          name="messagetext"
                           placeholder="Message Here"
-                          rows="5"
-                        ></textarea>
-                      </div>
-                      <button>Submit</button>
-                    </form>
+                          rows="3"
+                          ></textarea>
+                        </div>
+                        <br />
+                        <button>Submit</button>
+                      </form>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <button
-            onclick="topFunction()"
-            class="btn"
-            id="topbtn"
-            title="Go to top"
-          >
-            <i class="fas fa-angle-double-up fa-lg"></i>
-          </button>
         </section>
+        <!-- Footer -->
       </main>
-
-      <!-- Footer -->
       <footer class="footer py-5" include-html="footer.html"></footer>
     </article>
     <!-- Scripts -->
