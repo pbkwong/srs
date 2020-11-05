@@ -43,6 +43,14 @@
   grid-template-columns: repeat(3, 1fr);
 }
 
+.grid-6 {
+  grid-template-columns: repeat(6, 2fr);
+}
+
+.grid-8 {
+  grid-template-columns: repeat(8, 2fr);
+}
+
 /* Offsetting anchor to adjust for fixed headers */
 a.anchor {
   display: block;
