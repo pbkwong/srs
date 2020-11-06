@@ -52,33 +52,55 @@
                         or fill in the form below:
                       </h4>
                       <hr />
-                      <form action="">
-                        <div>
-                          <label for="name">Name:&nbsp;</label>
-                          <span class="error" id="nameErr"></span>
-                          <input type="text" placeholder="Name Here" />
-                        </div>
-                        <div>
-                          <label for="name">Email:&nbsp;</label>
-                          <span class="error" id="emailErr"></span>
-                          <input type="text" placeholder="Email Here" />
-                        </div>
-                        <div>
-                          <label for="name">Phone:&nbsp;</label>
-                          <span class="error" id="phoneErr"></span>
-                          <input type="text" placeholder="Phone Here" />
-                        </div>
-                        <div>
-                          <label for="message">Message: &nbsp;</label>
-                          <span class="error" id="commentErr"></span>
-                          <textarea
-                          name="messagetext"
-                          placeholder="Message Here"
-                          rows="3"
-                          ></textarea>
-                        </div>
-                        <button>Submit</button>
-                      </form>
+                      <div style="background-color: #dddddd">
+                        <p style="color: var(--error-color);">
+                          CURRENTLY IN-PROGRESS, SORRY FOR THE INCONVENIENCE
+                        </p>
+                        <form
+                          action=""
+                          class="card"
+                          style="background-color: #dddddd"
+                        >
+                          <div>
+                            <label for="name">Name:&nbsp;</label>
+                            <span class="error" id="nameErr"></span>
+                            <input
+                              type="text"
+                              placeholder="Name Here"
+                              disabled
+                            />
+                          </div>
+                          <div>
+                            <label for="name">Email:&nbsp;</label>
+                            <span class="error" id="emailErr"></span>
+                            <input
+                              type="text"
+                              placeholder="Email Here"
+                              disabled
+                            />
+                          </div>
+                          <div>
+                            <label for="name">Phone:&nbsp;</label>
+                            <span class="error" id="phoneErr"></span>
+                            <input
+                              type="text"
+                              placeholder="Phone Here"
+                              disabled
+                            />
+                          </div>
+                          <div>
+                            <label for="message">Message: &nbsp;</label>
+                            <span class="error" id="commentErr"></span>
+                            <textarea
+                              name="messagetext"
+                              placeholder="Message Here"
+                              rows="3"
+                              disabled
+                            ></textarea>
+                          </div>
+                          <button disabled>Submit</button>
+                        </form>
+                      </div>
                     </div>
                   </div>
                 </div>

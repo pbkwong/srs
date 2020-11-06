@@ -4,7 +4,7 @@
   --dark-color: #333;
   --light-color: #fff;
   --success-color: green;
-  --error-coloro: red;
+  --error-color: red;
 }
 
 * {
@@ -299,8 +299,16 @@ h2 {
 }
 
 .e-waste ul {
-  padding: 0 2rem;
   list-style-type: disc;
+}
+
+.e-waste-list {
+  align-items: flex-start;
+}
+
+#motherboard {
+  align-self: flex-start;
+  max-width: 50%;
 }
 
 /* Pick Up / Logistics */
@@ -328,8 +336,19 @@ h2 {
 }
 
 .pickuplogistics ul {
-  padding: 0 2rem;
   list-style-type: disc;
+}
+
+.pickuplogistics li {
+  padding: 0.2rem 0;
+}
+
+.pickuplogistics-list {
+  align-items: flex-start;
+}
+
+#trucks {
+  max-width: 60%;
 }
 
 /* Proprietary Product / Data Destruction */
@@ -356,6 +375,14 @@ h2 {
   box-shadow: 0 0 0 0;
 }
 
+.ppdd-row1 {
+  align-items: flex-start;
+}
+
+#secure {
+  max-width: 50%;
+}
+
 /* Environmental Commitment */
 .environment-com .grid {
   overflow: visible;
@@ -378,6 +405,14 @@ h2 {
 
 .environment-com .card {
   box-shadow: 0 0 0 0;
+}
+
+.environ-row1 {
+  align-items: flex-start;
+}
+
+#globe {
+  max-width: 30%;
 }
 
 /* Contacts */
