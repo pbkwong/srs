@@ -461,6 +461,13 @@ h2 {
   width: 200px;
 }
 
+#in-progress {
+  font-size: 14px;
+  text-align: center;
+  text-decoration: underline;
+  color: var(--error-color);
+}
+
 /* Footer */
 .footer {
   color: var(--dark-color);
